@@ -1,0 +1,760 @@
+body {
+  background-color: #F4F4F4;
+}
+
+a {
+  color: #666;
+}
+
+header.w-header {
+  width: 100%;
+  height: 158px;
+}
+
+header.w-header nav.top-nav {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: #f5f5f5;
+  border: solid 1px #EEEEEE;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap {
+  margin: 0 auto;
+  width: 1190px;
+  height: 360px;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l>li {
+  float: left;
+  padding: 0 10px;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l>li a {
+  color: #6C6C6C;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l a.local {
+  color: #3C3C3C;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l a.local+ul {
+  z-index: 100;
+  width: 265px;
+  height: 200px;
+  text-align: left;
+  overflow: auto;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l a.local+ul li {
+  border: 0;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-l a.login {
+  color: #F22E00;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r {
+  float: right;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r span.icon-car {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/gwc.png") no-repeat 50% 50%;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r span.icon-like {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/star.png") no-repeat 50% 50%;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r span.icon-nav {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/dh.png") no-repeat 50% 50%;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r>li {
+  float: left;
+  padding: 0 10px;
+}
+
+header.w-header nav.top-nav div.top-nav-wrap ul.top-nav-r>li a {
+  color: #6C6C6C;
+}
+
+header.w-header div.header-item {
+  widows: 100%;
+  height: 120px;
+  background-color: #fff;
+}
+
+header.w-header div.header-item .header-item-wrap {
+  margin: 0 auto;
+  width: 1190px;
+  height: 120px;
+}
+
+header.w-header div.header-item .header-item-wrap .logo-wrap {
+  float: left;
+  width: 190px;
+  height: 120px;
+  background: url("../img/logo.png") no-repeat center;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap {
+  margin-left: 260px;
+  padding-top: 25px;
+  width: 650px;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.shop-select {
+  margin-left: 15px;
+  height: 25px;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.shop-select li {
+  float: left;
+  height: 25px;
+  width: 35px;
+  margin-left: 5px;
+  line-height: 25px;
+  text-align: center;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.shop-select li a {
+  color: #FF4400;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.shop-select li.current {
+  background: -webkit-gradient(linear, left top, right top, from(#FF8F00), to(#FF5100));
+  background: linear-gradient(to right, #FF8F00, #FF5100);
+  border-radius: 5px 5px 0 0;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.shop-select li.current a {
+  color: #fff;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap div.search-main div.input-wrap {
+  position: relative;
+  float: left;
+  width: 555px;
+  height: 36px;
+  text-indent: 1em;
+  border: 2px solid #FF5000;
+  border-right: 0;
+  border-radius: 25px 0 0 25px;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap div.search-main div.input-wrap span.icon-search {
+  position: absolute;
+  left: 18px;
+  height: 36px;
+  line-height: 36px;
+  text-indent: 20px;
+  color: #9C9C9C;
+  background: url("../img/fdj.png") no-repeat left center;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap div.search-main div.input-wrap input {
+  position: absolute;
+  z-index: 1;
+  height: 36px;
+  width: 500px;
+  line-height: 36px;
+  border: 0;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap div.search-main div.input-wrap a {
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url("../img/camera.png") no-repeat center;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap div.search-main button.btn-search {
+  width: 75px;
+  height: 40px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#FF8F00), to(#FF5100));
+  background: linear-gradient(to right, #FF8F00, #FF5100);
+  border-radius: 0 20px 20px 0;
+  border: 0;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.commodity {
+  height: 20px;
+  line-height: 20px;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.commodity li {
+  float: left;
+  margin-right: 10px;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.commodity li a {
+  color: #3C3C3C;
+}
+
+header.w-header div.header-item .header-item-wrap .search-wrap ul.commodity li.active a {
+  color: #FF5000;
+}
+
+header.w-header div.header-item .header-item-wrap div.QR-wrap {
+  float: right;
+  margin-top: 10px;
+  margin-right: 100px;
+  width: 100px;
+  height: 100px;
+  background: url("../img/ewm.png") no-repeat;
+  background-size: contain;
+}
+
+section.w-main {
+  width: 100%;
+  height: 700px;
+}
+
+section.w-main div.main-wrap {
+  margin: 0 auto;
+  width: 1190px;
+  height: 630px;
+  text-align: center;
+}
+
+section.w-main div.main-wrap a {
+  color: #fff;
+}
+
+section.w-main div.main-wrap .main-navbar {
+  height: 30px;
+}
+
+section.w-main div.main-wrap .main-navbar h2 {
+  float: left;
+  width: 190px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #FF5000;
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav {
+  height: 30px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#FF8600), to(#FF5000));
+  background: linear-gradient(to right, #FF8600, #FF5000);
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav ul {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav ul li {
+  position: relative;
+  float: left;
+  padding: 0 4px;
+  margin: 0 3px;
+  height: 30px;
+  line-height: 30px;
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav ul li a {
+  color: #FFF9F2;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav ul li.slice {
+  color: #fff;
+}
+
+section.w-main div.main-wrap .main-navbar .main-nav ul li:hover::before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  display: block;
+  width: 22px;
+  height: 11px;
+  background: url(../img/up.png) no-repeat center;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner {
+  float: left;
+  width: 900px;
+  height: 630px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l {
+  height: 520px;
+  width: 188px;
+  background: #fff;
+  border: solid 1px #FF5000;
+  border-top: none;
+  float: left;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul {
+  padding-top: 5px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul li {
+  width: 144px;
+  height: 32px;
+  padding-left: 25px;
+  padding-right: 19px;
+  text-align: left;
+  line-height: 32px;
+  font-size: 14px;
+  color: #666;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul li a {
+  color: #666;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul li span.icon-next {
+  left: 30px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul li:hover {
+  background-color: #FFE4DC;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner aside.main-inner-l ul li:hover a {
+  color: #FF5000;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c {
+  float: left;
+  width: 690px;
+  padding: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group {
+  float: left;
+  width: 520px;
+  height: 510px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group .carousel-t {
+  width: 100%;
+  height: 280px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group .carousel-b {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group .carousel-b span.icon-tm {
+  float: left;
+  padding-left: 135px;
+  margin-left: 4px;
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+  background: url("../img/tm.png") no-repeat left -2px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group .carousel-b span.count {
+  float: right;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .carousel-group .carousel-b span.count em {
+  color: red;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .banner {
+  float: left;
+  margin-left: 10px;
+  width: 160px;
+  height: 510px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .banner .banner-t {
+  margin-bottom: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .banner .banner-b {
+  width: 160px;
+  height: 215px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-c .banner .banner-b img {
+  height: 100%;
+  width: 100%;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-b {
+  clear: both;
+  width: 890px;
+  height: 100px;
+  background-color: #fff;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-b .tt-logo {
+  padding-top: 5px;
+  float: left;
+  height: 100px;
+  margin-left: 20px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-b .tt-content {
+  padding: 15px;
+  height: 70px;
+  width: 680px;
+  text-align: left;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-b .tt-content img {
+  float: left;
+  margin-right: 30px;
+  height: 70px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-inner .main-inner-b .tt-content p {
+  color: #666;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r {
+  float: right;
+  margin-top: 10px;
+  width: 290px;
+  height: 620px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r a {
+  color: #3C3C3C;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user {
+  width: 100%;
+  height: 145px;
+  background: url("../img/bg.png") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user a.head {
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club {
+  width: 100%;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  color: #FF5000;
+  text-align: left;
+  background-color: #FFE4DB;
+  border-radius: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club a.coin {
+  width: 100px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club a.vip {
+  width: 95px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club span.icon-coin {
+  display: inline-block;
+  height: 20px;
+  text-indent: 18px;
+  background: url("../img/pics.png") no-repeat;
+  background-position: 0 -570px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.club span.icon-vip {
+  display: inline-block;
+  height: 20px;
+  text-indent: 18px;
+  background: url("../img/pics.png") no-repeat;
+  background-position: 0 -525px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.btn-group {
+  margin-top: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r .user div.btn-group a {
+  display: inline-block;
+  width: 85px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bolder;
+  background: -webkit-gradient(linear, left top, right top, from(#FF5000), to(#FF6E06));
+  background: linear-gradient(to right, #FF5000, #FF6E06);
+  border: 0;
+  border-radius: 5px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.report {
+  width: 100%;
+  height: 25px;
+  background-color: #FFE4DD;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.report a {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  color: #FF4400;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.report span.icon-next-orange {
+  left: 20px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice {
+  height: 90px;
+  width: 100%;
+  background-color: #fff;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice ul.notice-tab {
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 250px;
+  height: 30px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice ul.notice-tab li {
+  float: left;
+  width: 32px;
+  margin: 0 9px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice ul.notice-tab li.active {
+  border-bottom: #FF4400 2px solid;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice ul.notice-tab li.active a {
+  color: #3C3C3C;
+  font-weight: bold;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice div.tab-content {
+  padding: 0 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.notice div.tab-content div.tab-pane {
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  margin-top: 1px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab {
+  width: 100%;
+  height: 77px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li {
+  float: left;
+  width: 25%;
+  height: 75px;
+  border: 1px solid #F4F4F4;
+  border-bottom-color: #FF5000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a {
+  display: inline-block;
+  width: 100%;
+  height: 75px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a span.icon {
+  display: block;
+  margin: 12px auto 10px;
+  width: 25px;
+  height: 25px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a .icon-phone {
+  background: url("../img/pics.png") no-repeat;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a .icon-flypig {
+  background: url("../img/pics.png") no-repeat;
+  background-position: 0 -86px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a .icon-carxian {
+  background: url("../img/pics.png") no-repeat;
+  background-position: 0 -43px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li a .icon-game {
+  background: url("../img/pics.png") no-repeat;
+  background-position: 0 -132px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li.active {
+  border-color: #FF4400;
+  border-bottom: none;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program ul.program-tab li.active a {
+  color: #FF4400;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content {
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: 170px;
+  border: 1px solid #FF4000;
+  border-top: 0;
+  overflow: hidden;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane {
+  height: 170px;
+  width: 100%;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane ul.pane-tab {
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane ul.pane-tab li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane ul.pane-tab li a {
+  color: #666666;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form {
+  margin-left: 15px;
+  width: 190px;
+  text-align: left;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form.chongzhi input {
+  width: 188px;
+  height: 24px;
+  border: 1px solid #CCCCCC;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form.chongzhi input:first-child {
+  border-bottom: 0;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form.chongzhi span.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form.chongzhi div.price {
+  padding: 8px 5px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form.travel {
+  text-align: left;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form input.text {
+  margin: 5px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.program div.tab-content .pane form .submit {
+  width: 70px;
+  height: 30px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #FF4400;
+  border-radius: 5px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app {
+  width: 100%;
+  height: 109px;
+  background-color: #fff;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-header {
+  height: 25px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-header h3 {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3C3C3C;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-header span.more {
+  float: right;
+  margin-right: 20px;
+  color: #3C3C3C;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-list ul {
+  width: 100%;
+  height: 75px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-list ul li {
+  float: left;
+  width: 20%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+section.w-main div.main-wrap .main-section .main-section-r div.app .app-list ul li img {
+  width: 35px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */

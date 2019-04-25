@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* 页面的根样式 */
+
+/* 下三角 */
+.caret {
+  display: inline-block;
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  background: url("../img/xsj.png") no-repeat 50% 50%;
+}
+
+/* 右三角 */
+.icon-next {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 4px;
+  height: 7px;
+  background: url(../img/yjt.png) no-repeat center;
+}
+
+/* 橙色右三角 */
+.icon-next-orange {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  width: 8px;
+  height: 10px;
+  background: url(../img/ysj.png) no-repeat center;
+}
+
+/* 下拉菜单 */
+.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown ul.dropdown-menu {
+  position: absolute;
+  display: none;
+  left: -1px;
+  z-index: 100;
+  text-align: left;
+  background-color: #fff;
+  border: #EEEEEE solid 1px;
+  border-top: 0;
+
+}
+
+.dropdown ul.dropdown-menu li {
+  /* border-top: #EEEEEE solid 1px; */
+  margin: 5px 0;
+  padding: 5px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.dropdown ul.dropdown-menu li.on {
+  background: #F9F9F9;
+}
+
+.dropdown ul.dropdown-menu li:first-child {
+  border-top: 0;
+}
+
+
+/* 轮播图 */
+div.carousel {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+/* 轮播图指示器 */
+div.carousel .carousel-indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  margin-left: -35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  width: 70px;
+  height: 13px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, .5);
+}
+
+div.carousel .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+div.carousel .carousel-indicators li.active {
+  background-color: #ff5000;
+}
+
+
+/* 轮播图内容 */
+div.carousel div.carousel-inner {
+  position: absolute;
+  width: 2600px;
+}
+
+div.carousel div.carousel-inner div.item {
+  float: left;
+}
+
+div.carousel div.carousel-inner div.item img {
+  /* 消除图片3pxbug */
+  vertical-align: top;
+}
+
+/* 翻页按钮 */
+div.carousel button {
+  display: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #fff;
+  border: 0;
+  background: rgba(0, 0, 0, .3)
+}
+
+div.carousel button.next {
+  right: 0;
+}
+
+
+
+/* 模态框 */
+div.modal {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+div.modal div.modal-dialog {
+  width: 100%;
+  padding: 30px 0;
+}
+
+div.modal div.modal-dialog div.modal-content {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+div.modal div.modal-dialog div.modal-content div.modal-header {
+  position: relative;
+  padding: 15px;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+div.modal div.modal-dialog div.modal-content div.modal-header button.close {
+  position: absolute;
+  right: 15px;
+  background: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  color: #ccc;
+  border: 0;
+  cursor: pointer;
+}
+
+div.modal div.modal-dialog div.modal-content div.modal-header h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.modal div.modal-dialog div.modal-content div.modal-body {
+  padding: 15px;
+}
